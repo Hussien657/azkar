@@ -6,7 +6,7 @@ import 'package:azkar/screens/elsbah.dart';
 import 'package:azkar/screens/mosque.dart';
 import 'package:azkar/screens/sleep.dart';
 import 'package:azkar/screens/time.dart';
-import 'package:azkar/screens/timer_screen.dart';
+import 'package:azkar/t/timer_screen.dart';
 import 'package:azkar/screens/wake_up.dart';
 import 'package:flutter/material.dart';
 import 'components/azkar_widget.dart';
