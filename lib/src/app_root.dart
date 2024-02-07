@@ -1,7 +1,7 @@
 import 'package:azkar/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:google_nav_bar/google_nav_bar.dart';
+
 
 import '../azkar_cubit/azkar_cubit.dart';
 class AppRoot extends StatelessWidget {

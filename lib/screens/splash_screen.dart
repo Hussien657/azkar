@@ -1,8 +1,8 @@
 import 'package:azkar/core/size_config.dart';
-import 'package:azkar/screens/home_screen.dart';
+
 import 'package:flutter/material.dart';
 
-import '../main1.dart';
+import '../home_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -15,7 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     Future.delayed(const Duration(seconds: 3),(){
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>   MyApp()));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>   HomeScreen()));
     });
     // TODO: implement initState
     super.initState();
@@ -39,9 +39,9 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset('images/assets/images/book.png'),
-            const Text('اذكار مسلم',style: TextStyle(
+             Text('اذكار مسلم',style: TextStyle(
               color: Colors.white,
-              fontSize: 40,
+              fontSize: SizeConfig.defaultSize!*4,
               fontWeight: FontWeight.bold,
             ),)
           ],

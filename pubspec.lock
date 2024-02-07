@@ -88,13 +88,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  google_nav_bar:
-    dependency: "direct main"
-    description:
-      name: google_nav_bar
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "5.0.6"
   http_parser:
     dependency: transitive
     description:
@@ -102,13 +95,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.2"
-  line_icons:
-    dependency: "direct main"
-    description:
-      name: line_icons
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.3"
   lints:
     dependency: transitive
     description:
@@ -144,13 +130,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
-  nice_buttons:
-    dependency: "direct main"
-    description:
-      name: nice_buttons
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.0.3"
   path:
     dependency: transitive
     description:
@@ -228,4 +207,4 @@ packages:
     version: "2.1.2"
 sdks:
   dart: ">=2.18.0 <3.0.0"
-  flutter: ">=1.17.0"
+  flutter: ">=1.16.0"
